@@ -12,15 +12,15 @@ export default new Router({
   routes: [
     {
       path: '/',
-      component: TopPage
+      component: TopPage,
     },
     {
       path: '/vuex',
-      component: HelloVuex
+      component: HelloVuex,
     },
     {
       path: '*',
-      component: NotFound
-    }
-  ]
+      component: NotFound,
+    },
+  ],
 });
