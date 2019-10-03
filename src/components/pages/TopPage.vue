@@ -5,10 +5,6 @@ import List from "../molecules/List";
 import LIST_ITEMS from "../../constants/listItems.json";
 
 export default {
-  name: "HelloWorld",
-  props: {
-    title: String
-  },
   components: { Link, List },
   data: () => ({
     lists: LIST_ITEMS
@@ -16,15 +12,11 @@ export default {
 };
 </script>
 
-<style scoped>
-a {
-  color: #42b983;
-}
-</style>
-
 <template>
   <div class="hello">
-    <h1>{{ title }}</h1>
+    <img alt="Vue logo" src="../../assets/logo.png" />
+    <h1>Welcome to Your Vue.js App</h1>
+    <Link name="Go to Hello-Vuex" to="/vuex" />
     <p>
       For a guide and recipes on how to configure / customize this project,
       <br />check out the

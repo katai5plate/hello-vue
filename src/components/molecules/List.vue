@@ -1,7 +1,6 @@
 <script>
 import ListItem from "../atoms/ListItem";
 export default {
-  name: "List",
   props: {
     title: String,
     list: Array

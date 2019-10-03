@@ -1,19 +1,27 @@
 <script>
 export default {
-  name: "Link",
   props: {
     name: String,
-    href: String
+    href: String,
+    to: String
   }
 };
 </script>
 
 <style scoped>
+RouterLink,
 a {
   color: #42b983;
 }
 </style>
 
 <template>
-  <a :href="href" target="_blank" rel="noopener">{{name}}</a>
+  <div>
+    <div v-if="to">
+      <RouterLink :to="to">{{name}}</RouterLink>
+    </div>
+    <div v-else>
+      <a :href="href" target="_blank" rel="noopener">{{name}}</a>
+    </div>
+  </div>
 </template>

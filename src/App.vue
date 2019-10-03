@@ -1,14 +1,3 @@
-<script>
-import HelloWorld from "./components/pages/HelloWorld";
-
-export default {
-  name: "app",
-  components: {
-    HelloWorld
-  }
-};
-</script>
-
 <style>
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -22,7 +11,6 @@ export default {
 
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld title="Welcome to Your Vue.js App" />
+    <RouterView />
   </div>
 </template>

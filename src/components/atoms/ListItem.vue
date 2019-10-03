@@ -1,7 +1,6 @@
 <script>
 import Link from "./Link";
 export default {
-  name: "ListItem",
   props: {
     name: String,
     href: String
