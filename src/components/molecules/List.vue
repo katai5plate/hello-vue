@@ -1,5 +1,5 @@
 <script>
-import ListItem from "~/components/atoms/ListItem";
+import ListItem from '~/components/atoms/ListItem';
 export default {
   props: {
     title: String,

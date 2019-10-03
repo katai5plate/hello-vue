@@ -1,8 +1,8 @@
 <script>
-import Link from "~/components/atoms/Link";
-import List from "~/components/molecules/List";
+import Link from '~/components/atoms/Link';
+import List from '~/components/molecules/List';
 
-import LIST_ITEMS from "~/constants/listItems.json";
+import LIST_ITEMS from '~/constants/listItems.json';
 
 export default {
   components: { Link, List },
