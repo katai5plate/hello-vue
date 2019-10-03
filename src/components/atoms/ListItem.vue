@@ -1,5 +1,5 @@
 <script>
-import Link from "./Link";
+import Link from "~/components/atoms/Link";
 export default {
   props: {
     name: String,

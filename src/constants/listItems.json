@@ -1,5 +1,5 @@
 {
-  "cli": [
+  "installedCliPlugins": [
     {
       "name": "babel",
       "href": "https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel"
@@ -9,7 +9,7 @@
       "href": "https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint"
     }
   ],
-  "link": [
+  "essentialLinks": [
     {
       "name": "Core Docs",
       "href": "https://vuejs.org"
@@ -31,7 +31,7 @@
       "href": "https://news.vuejs.org"
     }
   ],
-  "eco": [
+  "ecosystem": [
     {
       "name": "vue-router",
       "href": "https://router.vuejs.org"

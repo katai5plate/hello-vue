@@ -16,12 +16,6 @@ a {
 </style>
 
 <template>
-  <div>
-    <div v-if="to">
-      <RouterLink :to="to">{{name}}</RouterLink>
-    </div>
-    <div v-else>
-      <a :href="href" target="_blank" rel="noopener">{{name}}</a>
-    </div>
-  </div>
+  <RouterLink v-if="to" :to="to">{{name}}</RouterLink>
+  <a v-else :href="href" target="_blank" rel="noopener">{{name}}</a>
 </template>

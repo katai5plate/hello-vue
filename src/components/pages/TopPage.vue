@@ -1,8 +1,8 @@
 <script>
-import Link from "../atoms/Link";
-import List from "../molecules/List";
+import Link from "~/components/atoms/Link";
+import List from "~/components/molecules/List";
 
-import LIST_ITEMS from "../../constants/listItems.json";
+import LIST_ITEMS from "~/constants/listItems.json";
 
 export default {
   components: { Link, List },
@@ -22,8 +22,8 @@ export default {
       <br />check out the
       <Link href="https://cli.vuejs.org" name="vue-cli documentation" />.
     </p>
-    <List title="Installed CLI Plugins" :list="lists.cli" />
-    <List title="Essential Links" :list="lists.link" />
-    <List title="Ecosystem" :list="lists.eco" />
+    <List title="Installed CLI Plugins" :list="lists.installedCliPlugins" />
+    <List title="Essential Links" :list="lists.essentialLinks" />
+    <List title="Ecosystem" :list="lists.ecosystem" />
   </div>
 </template>
