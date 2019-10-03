@@ -11,19 +11,9 @@ export default {
 };
 </script>
 
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-</style>
-
 <template>
   <div>
-    <h3>{{title}}</h3>
+    <p class="subtitle is-3">{{title}}</p>
     <ul>
       <ListItem v-for="(item, index) in list" :key="index" :name="item.name" :href="item.href" />
     </ul>

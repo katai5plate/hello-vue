@@ -12,14 +12,14 @@ export default {
 </script>
 
 <style scoped>
-li {
+/* li {
   display: inline-block;
   margin: 0 10px;
-}
+} */
 </style>
 
 <template>
-  <li>
+  <li class="is-inline-block">
     <Link :href="href" :name="name" />
   </li>
 </template>
