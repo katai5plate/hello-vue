@@ -64,7 +64,7 @@ new Vue({
 
 - ./src/AnyPage.vue
 
-```diff
+```jsx
 <RouterLink to="/">GO!</RouterLink>
 ```
 
